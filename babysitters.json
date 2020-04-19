@@ -1,0 +1,374 @@
+[
+	{
+    "id": "1",
+		"name": "Baby Sitter",
+		"photo": "https://www.thispersondoesnotexist.com/image",
+		"completed": 12,
+		"location": "Dnipro",
+		"work": "some school",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consequatur.",
+		"rating": 4.9,
+		"reviews": [
+			{
+				"author": "Some Author",
+				"range": {
+					"general": 4,
+					"methodology": 95,
+					"approach": 98,
+					"experiance": 95,
+					"price": 87,
+					"quality": 96
+				},
+				"text": "Very good babysitter"
+			},
+			{
+				"author": "Author Author",
+				"range": {
+					"general": 5,
+					"methodology": 87,
+					"approach": 95,
+					"experiance": 92,
+					"price": 96,
+					"quality": 90
+				},
+				"text": "Very good"
+			},
+			{
+				"author": "Another Person",
+				"range": {
+					"general": 3.5,
+					"methodology": 85,
+					"approach": 88,
+					"experiance": 75,
+					"price": 97,
+					"quality": 66
+				},
+				"text": "OK"
+			}
+		],
+		"quote": "Never give up",
+		"services": {
+			"driversLicense": true,
+			"houseCleaning": true,
+			"english": false,
+			"cooking": true
+		},
+		"assessments": {
+			"methodology": 95,
+			"approach": 98,
+			"experiance": 95,
+			"price": 87,
+			"quality": 96
+		}
+	},
+	{
+    "id": "2",
+		"name": "Sitter Baby",
+		"photo": "https://www.thispersondoesnotexist.com/image",
+		"completed": 12,
+		"location": "Dnipro",
+		"work": "some school",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consequatur.",
+		"rating": 4.9,
+		"reviews": [
+			{
+				"author": "Some Author",
+				"range": {
+					"general": 4,
+					"methodology": 95,
+					"approach": 98,
+					"experiance": 95,
+					"price": 87,
+					"quality": 96
+				},
+				"text": "Very good babysitter"
+			},
+			{
+				"author": "Author Author",
+				"range": {
+					"general": 5,
+					"methodology": 87,
+					"approach": 95,
+					"experiance": 92,
+					"price": 96,
+					"quality": 90
+				},
+				"text": "Very good"
+			},
+			{
+				"author": "Another Person",
+				"range": {
+					"general": 3.5,
+					"methodology": 85,
+					"approach": 88,
+					"experiance": 75,
+					"price": 97,
+					"quality": 66
+				},
+				"text": "OK"
+			}
+		],
+		"quote": "Never give up",
+		"services": {
+			"driversLicense": true,
+			"houseCleaning": true,
+			"english": false,
+			"cooking": true
+		},
+		"assessments": {
+			"methodology": 95,
+			"approach": 98,
+			"experiance": 95,
+			"price": 87,
+			"quality": 96
+		}
+	},
+	{
+    "id": "3",
+		"name": "Sitter Sitter",
+		"photo": "https://www.thispersondoesnotexist.com/image",
+		"completed": 12,
+		"location": "Dnipro",
+		"work": "some school",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consequatur.",
+		"rating": 4,
+		"reviews": [
+			{
+				"author": "Some Author",
+				"range": {
+					"general": 4,
+					"methodology": 95,
+					"approach": 98,
+					"experiance": 95,
+					"price": 87,
+					"quality": 96
+				},
+				"text": "Very good babysitter"
+			},
+			{
+				"author": "Author Author",
+				"range": {
+					"general": 5,
+					"methodology": 87,
+					"approach": 95,
+					"experiance": 92,
+					"price": 96,
+					"quality": 90
+				},
+				"text": "Very good"
+			},
+			{
+				"author": "Another Person",
+				"range": {
+					"general": 3.5,
+					"methodology": 85,
+					"approach": 88,
+					"experiance": 75,
+					"price": 97,
+					"quality": 66
+				},
+				"text": "OK"
+			}
+		],
+		"quote": "Never give up",
+		"services": {
+			"driversLicense": true,
+			"houseCleaning": true,
+			"english": false,
+			"cooking": false
+		},
+		"assessments": {
+			"methodology": 95,
+			"approach": 98,
+			"experiance": 95,
+			"price": 87,
+			"quality": 96
+		}
+	},
+	{
+    "id": "4",
+		"name": "Baby Sitter",
+		"photo": "https://www.thispersondoesnotexist.com/image",
+		"completed": 12,
+		"location": "Dnipro",
+		"work": "some school",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consequatur.",
+		"rating": 4.5,
+		"reviews": [
+			{
+				"author": "Some Author",
+				"range": {
+					"general": 4,
+					"methodology": 95,
+					"approach": 98,
+					"experiance": 95,
+					"price": 87,
+					"quality": 96
+				},
+				"text": "Very good babysitter"
+			},
+			{
+				"author": "Author Author",
+				"range": {
+					"general": 5,
+					"methodology": 87,
+					"approach": 95,
+					"experiance": 92,
+					"price": 96,
+					"quality": 90
+				},
+				"text": "Very good"
+			},
+			{
+				"author": "Another Person",
+				"range": {
+					"general": 3.5,
+					"methodology": 85,
+					"approach": 88,
+					"experiance": 75,
+					"price": 97,
+					"quality": 66
+				},
+				"text": "OK"
+			}
+		],
+		"quote": "Never give up",
+		"services": {
+			"driversLicense": false,
+			"houseCleaning": true,
+			"english": true,
+			"cooking": true
+		},
+		"assessments": {
+			"methodology": 95,
+			"approach": 98,
+			"experiance": 95,
+			"price": 87,
+			"quality": 96
+		}
+	},
+	{
+    "id": "5",
+		"name": "Good Sitter",
+		"photo": "https://www.thispersondoesnotexist.com/image",
+		"completed": 12,
+		"location": "Dnipro",
+		"work": "some school",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consequatur.",
+		"rating": 4.9,
+		"reviews": [
+			{
+				"author": "Some Author",
+				"range": {
+					"general": 4,
+					"methodology": 95,
+					"approach": 98,
+					"experiance": 95,
+					"price": 87,
+					"quality": 96
+				},
+				"text": "Very good babysitter"
+			},
+			{
+				"author": "Author Author",
+				"range": {
+					"general": 5,
+					"methodology": 87,
+					"approach": 95,
+					"experiance": 92,
+					"price": 96,
+					"quality": 90
+				},
+				"text": "Very good"
+			},
+			{
+				"author": "Another Person",
+				"range": {
+					"general": 3.5,
+					"methodology": 85,
+					"approach": 88,
+					"experiance": 75,
+					"price": 97,
+					"quality": 66
+				},
+				"text": "OK"
+			}
+		],
+		"quote": "Never give up",
+		"services": {
+			"driversLicense": true,
+			"houseCleaning": false,
+			"english": false,
+			"cooking": true
+		},
+		"assessments": {
+			"methodology": 95,
+			"approach": 98,
+			"experiance": 95,
+			"price": 87,
+			"quality": 96
+		}
+	},
+	{
+    "id": "6",
+		"name": "Anna Sitter",
+		"photo": "https://www.thispersondoesnotexist.com/image",
+		"completed": 12,
+		"location": "Dnipro",
+		"work": "some school",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consequatur.",
+		"rating": 4.5,
+		"reviews": [
+			{
+				"author": "Some Author",
+				"range": {
+					"general": 4,
+					"methodology": 95,
+					"approach": 98,
+					"experiance": 95,
+					"price": 87,
+					"quality": 96
+				},
+				"text": "Very good babysitter"
+			},
+			{
+				"author": "Author Author",
+				"range": {
+					"general": 5,
+					"methodology": 87,
+					"approach": 95,
+					"experiance": 92,
+					"price": 96,
+					"quality": 90
+				},
+				"text": "Very good"
+			},
+			{
+				"author": "Another Person",
+				"range": {
+					"general": 3.5,
+					"methodology": 85,
+					"approach": 88,
+					"experiance": 75,
+					"price": 97,
+					"quality": 66
+				},
+				"text": "OK"
+			}
+		],
+		"quote": "Never give up",
+		"services": {
+			"driversLicense": true,
+			"houseCleaning": true,
+			"english": true,
+			"cooking": true
+		},
+		"assessments": {
+			"methodology": 95,
+			"approach": 98,
+			"experiance": 95,
+			"price": 87,
+			"quality": 96
+		}
+	}
+]
