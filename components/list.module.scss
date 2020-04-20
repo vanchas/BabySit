@@ -1,0 +1,84 @@
+.sitters {
+	box-shadow: inset -4px -4px 10px 5px #ecf0f8, inset 3px 3px 8px 1px #828da0, -1px -1px 5px 1px #fff,
+		1px 1px 5px 1px #9fa9b9;
+	// box-shadow: inset -4px -4px 10px 5px #f5f7fd, inset 3px 3px 25px 1px #7b879c, -5px -5px 10px 1px #fbfcff, 5px 10px 10px 1px #acb6c7;
+	padding: 3em 2em;
+	border-radius: 1em;
+	background: linear-gradient(280deg, #e4eaf8, #f6f8fd);
+
+	form {
+		input {
+			background: #3a3842;
+			margin-bottom: 1em;
+			box-sizing: border-box;
+			border: none;
+			color: #77ca;
+			border-radius: .5em;
+			background: linear-gradient(#e4eaf8, #f6f8fd);
+			box-shadow: inset -4px -4px 15px 2px #fdfdff, inset 4px 4px 5px 1px #a8b1c4;
+			transition: all 0.3s ease-in-out;
+		}
+
+		input:focus {
+			outline: none;
+			box-shadow: inset 5px 5px 8px 1px rgba(0, 0, 0, 0.1), inset -5px -5px 8px 0px rgba(77, 71, 100, 0.2),
+				inset -1px -2px 2px 0px rgba(77, 71, 100, 0.3), 5px 5px 10px 2.5px rgba(0, 0, 0, 0.1),
+				-5px -5px 10px 2.5px rgba(77, 71, 100, 0.3), -1px -1px 4px 2px rgba(77, 71, 100, 0.3);
+		}
+	}
+	.list_group {
+		li {
+			margin-bottom: 3em;
+			list-style: none;
+		}
+		.list_group_item {
+			box-shadow: -4px -4px 5px 3px #e5e9f1, 4px 4px 5px 1px #bdc4d4;
+			border-radius: 1em;
+			padding: 1em;
+			// list-style: none;
+			background: #fafafa;
+			position: relative;
+			color: #635eb1;
+
+			.photo_holder {
+				img {
+					margin: 0 auto;
+					border-radius: 50%;
+					box-shadow: 0 0 10px 2px #8491a7;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.sitters {
+		// box-shadow: inset -4px -4px 10px 1px #f0f4fd, inset 3px 3px 10px 1px #828da0;
+		// padding: 3em 2em;
+		// border-radius: 1em;
+		// background: linear-gradient(15deg, #dae3f7, #e7edf7);
+
+		.list_group {
+			.list_group_item {
+				// background: linear-gradient(15deg, #dae3f7, #e7edf7);
+				// box-shadow: inset -4px -4px 10px 1px #f0f4fd, inset 4px 4px 10px 1px #828da0,
+				// box-shadow: -4px -4px 5px 1px #ced3e4, 4px 4px 5px 1px #a0abbe;
+				// border: 10px solid #dae3f7;
+				// border-radius: 1em;
+				// margin-bottom: 2em;
+				// padding: 1em;
+				// list-style: none;
+				// background: #fafafa;
+
+				.photo_holder {
+					// overflow: hidden;
+					img {
+						// margin: 0 auto;
+						// border-radius: 50%;
+						// box-shadow: 0 0 10px #606e85;
+					}
+				}
+			}
+		}
+	}
+}

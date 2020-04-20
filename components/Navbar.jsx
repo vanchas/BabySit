@@ -1,15 +1,12 @@
 import Link from 'next/link';
+import $ from 'jquery';
 import {
   MDBNavbar,
   MDBNavbarBrand,
   MDBNavbarNav,
   MDBNavItem,
   MDBNavbarToggler,
-  MDBCollapse,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem
+  MDBCollapse
 } from 'mdbreact';
 
 class Navbar extends React.Component {
@@ -24,56 +21,49 @@ class Navbar extends React.Component {
     this.setState({ isOpen: !this.state.isOpen });
   };
 
+  navbarClose() {
+    $('.navbar-toggler').click();
+  }
+
   render() {
     return (
       <>
-        <MDBNavbar color='indigo' light expand='md'>
+        <MDBNavbar color='indigo' light expand='md'
+          className="navbar">
           <MDBNavbarBrand>
-            <Link href="/"><a className="btn nav-link">
+            <Link href="/"><a
+              onClick={this.navbarClose}
+              className="navbar-brand btn nav-link">
               <strong className=''>Babysit</strong>
             </a></Link>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id='navbarCollapse3' isOpen={this.state.isOpen} navbar>
-            <MDBNavbarNav left>
+            <MDBNavbarNav left className="w-100">
               <MDBNavItem>
-                <Link href="/main/main"><a className="nav-link">Babysitters</a></Link>
+                <Link href="/main/main"><a
+                  onClick={this.navbarClose}
+                  className="nav-link px-3">Babysitters</a></Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href="/about/about"><a className="nav-link">About</a></Link>
+                <Link href="/about/about"><a
+                  onClick={this.navbarClose}
+                  className="nav-link px-3">About</a></Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href="/signin"><a className="nav-link">Sign in</a></Link>
+                <Link href="/sign-in/signIn"><a
+                  onClick={this.navbarClose}
+                  className="nav-link px-3">Sign in</a></Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href="/signup"><a className="nav-link">Sign up</a></Link>
+                <Link href="/sign-up/signUp"><a
+                  onClick={this.navbarClose}
+                  className="nav-link px-3">Sign up</a></Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href="/inbabysit"><a className="nav-link">Sign in as babysit</a></Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBDropdown>
-                  <MDBDropdownToggle nav caret>
-                    <span className='mr-2'>Read More</span>
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu>
-                    <MDBDropdownItem>
-                      <Link href="/howitworks"><a className="nav-link">How it works</a></Link>
-                    </MDBDropdownItem>
-                    <MDBDropdownItem>
-                      <Link href="/mission"><a className="nav-link">Our mission</a></Link>
-                    </MDBDropdownItem>
-                    <MDBDropdownItem>
-                      <Link href="/vacancies"><a className="nav-link">Vacancies</a></Link>
-                    </MDBDropdownItem>
-                    <MDBDropdownItem>
-                      <Link href="/faqs"><a className="nav-link">FAQs</a></Link>
-                    </MDBDropdownItem>
-                    <MDBDropdownItem>
-                      <Link href="/rules"><a className="nav-link">Rules</a></Link>
-                    </MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
+                <Link href="/read-more/readMore"><a
+                  onClick={this.navbarClose}
+                  className="nav-link px-3">Read More</a></Link>
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>
