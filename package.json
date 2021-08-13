@@ -13,7 +13,7 @@
 		"bootstrap": "^4.4.1",
 		"jquery": "^3.5.0",
 		"mdbreact": "^4.25.6",
-		"next": "9.3.5",
+		"next": "11.1.0",
 		"next-redux-wrapper": "^5.0.0",
 		"node-sass": "^4.13.1",
 		"react": "16.13.1",
